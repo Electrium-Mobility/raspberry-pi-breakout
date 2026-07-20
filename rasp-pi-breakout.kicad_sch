@@ -4443,6 +4443,17 @@
 		)
 		(uuid "5435073b-38d6-43c9-9038-2e985b5dd3eb")
 	)
+	(text "I would add a 3rd LED here, so Id move the green LED to the 3.3V\npower line so its always on if there is power and ad a different colour LED, Blue, purple etc on the pico"
+		(exclude_from_sim no)
+		(at 165.608 159.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "5b9e474d-cc80-44de-89d1-99483535afb3")
+	)
 	(text "USBC Header"
 		(exclude_from_sim no)
 		(at 102.87 112.776 0)
@@ -4452,6 +4463,17 @@
 			)
 		)
 		(uuid "7964f2d7-a1e3-4557-b837-6ea3593a798c")
+	)
+	(text "The GPIO pins should be broken out to headers here, they can even be basic \n2.54mm header pins so they don't add any cost, but basically any unused pin should get broken out"
+		(exclude_from_sim no)
+		(at 236.474 140.716 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "a305db6f-e201-44b2-b1fd-a24090df8a17")
 	)
 	(text "Raspberry Pi MCU"
 		(exclude_from_sim no)
